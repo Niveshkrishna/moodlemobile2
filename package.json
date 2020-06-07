@@ -1,6 +1,6 @@
 {
   "name": "moodlemobile",
-  "version": "3.8.2",
+  "version": "3.8.3",
   "description": "The official app for Moodle.",
   "author": {
     "name": "Moodle Pty Ltd.",
@@ -44,7 +44,7 @@
     "@angular/animations": "5.2.11",
     "@angular/common": "5.2.11",
     "@angular/compiler": "5.2.11",
-    "@angular/compiler-cli": "5.2.11",
+    "@angular/compiler-cli": "^9.1.1",
     "@angular/core": "5.2.11",
     "@angular/forms": "5.2.11",
     "@angular/platform-browser": "5.2.11",
@@ -77,10 +77,9 @@
     "chart.js": "2.9.3",
     "com-darryncampbell-cordova-plugin-intent": "1.3.0",
     "cordova": "9.0.0",
-    "cordova-android": "8.1.0",
+    "cordova-android": "^8.1.0",
     "cordova-android-support-gradle-release": "3.0.1",
     "cordova-clipboard": "1.3.0",
-    "cordova-ios": "5.1.1",
     "cordova-plugin-badge": "0.8.8",
     "cordova-plugin-camera": "4.1.0",
     "cordova-plugin-customurlscheme": "5.0.0",
@@ -102,6 +101,7 @@
     "cordova-plugin-zip": "3.1.0",
     "cordova-sqlite-storage": "4.0.0",
     "cordova-support-google-services": "1.3.2",
+    "cordova-windows": "7.0.1",
     "es6-promise-plugin": "4.2.2",
     "font-awesome": "4.7.0",
     "ionic-angular": "3.9.9",
@@ -148,8 +148,8 @@
   },
   "cordova": {
     "platforms": [
-      "android",
-      "ios"
+      "windows",
+      "android"
     ],
     "plugins": {
       "com-darryncampbell-cordova-plugin-intent": {},
@@ -160,7 +160,7 @@
       "cordova-plugin-badge": {},
       "cordova-plugin-camera": {},
       "cordova-plugin-customurlscheme": {
-        "URL_SCHEME": "moodlemobile"
+        "URL_SCHEME": "https://online.laaraa.com/ug/"
       },
       "cordova-plugin-device": {},
       "cordova-plugin-file": {},
@@ -190,8 +190,8 @@
   },
   "main": "desktop/electron.js",
   "build": {
-    "appId": "com.moodle.moodledesktop",
-    "productName": "Moodle Desktop",
+    "appId": "com.laaraa.app",
+    "productName": "Laaraa Desktop",
     "files": [
       "desktop/electron.js",
       "www/**/*",
@@ -212,9 +212,9 @@
     },
     "protocols": [
       {
-        "name": "Moodle Mobile URL",
+        "name": "  Mobile URL",
         "schemes": [
-          "moodlemobile"
+          " mobile"
         ],
         "role": "Viewer"
       }
@@ -225,7 +225,7 @@
       "category": "public.app-category.education",
       "icon": "resources/desktop/icon.icns",
       "target": "mas",
-      "bundleVersion": "3.8.2",
+      "bundleVersion": "3.8.3",
       "extendInfo": {
         "ElectronTeamID": "2NU57U5PAW"
       }

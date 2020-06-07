@@ -19,7 +19,7 @@
             <ng-container *ngIf="!fixedSites">
                 <ion-item>
                     <ion-label stacked><h2>{{ 'core.login.siteaddress' | translate }}</h2></ion-label>
-                    <ion-input type="url" name="url" placeholder="https://campus.example.edu" formControlName="siteUrl" [core-auto-focus]="showKeyboard"></ion-input>
+                    <ion-input type="url" name="url" formControlName="siteUrl" [core-auto-focus]="showKeyboard"></ion-input>
                 </ion-item>
             </ng-container>
 
@@ -38,7 +38,7 @@
             <ion-searchbar *ngIf="fixedSites.length > 4" [(ngModel)]="filter" (ionInput)="filterChanged($event)" (ionCancel)="filterChanged()" [placeholder]="'core.login.findyoursite' | translate"></ion-searchbar>
             <ion-item *ngFor="let site of filteredSites" (click)="connect($event, site.url)" [title]="site.name" detail-push text-wrap>
                 <h2>{{site.name}}</h2>
-                <p *ngIf="fixedDisplay == 'list'">{{site.url}}</p>
+                <p>{{site.url}}</p>
             </ion-item>
         </ion-list>
 

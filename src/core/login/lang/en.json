@@ -88,7 +88,7 @@
     "selectacountry": "Select a country",
     "selectsite": "Please select your site:",
     "signupplugindisabled": "{{$a}} is not enabled.",
-    "siteaddress": "Your site address",
+    "siteaddress": "Click on Connect",
     "sitehasredirect": "Your site contains at least one HTTP redirect. The app cannot follow redirects, this could be the issue that's preventing the app from connecting to your site.",
     "siteinmaintenance": "Your site is in maintenance mode",
     "sitepolicynotagreederror": "Site policy not agreed.",
