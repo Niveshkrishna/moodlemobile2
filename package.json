@@ -160,7 +160,7 @@
       "cordova-plugin-badge": {},
       "cordova-plugin-camera": {},
       "cordova-plugin-customurlscheme": {
-        "URL_SCHEME": "https://online.laaraa.com/ug/"
+        "URL_SCHEME": "https://laaraa.com/ugonline/"
       },
       "cordova-plugin-device": {},
       "cordova-plugin-file": {},
