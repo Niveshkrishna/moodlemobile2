@@ -6,11 +6,11 @@
   <Identity Name="3312ADB7.MoodleDesktop"
     ProcessorArchitecture="x64"
     Publisher="CN=33CDCDF6-1EB5-4827-9897-ED25C91A32F6"
-    Version="3.8.5.0" />
+    Version="3.8.6.0" />
   <Properties>
-    <DisplayName>LaaRaa UG</DisplayName>
+    <DisplayName>TalentExams</DisplayName>
     <PublisherDisplayName>Sri Krishna Academy</PublisherDisplayName>
-    <Description>The official app for LaaRaa.</Description>
+    <Description>The official app by Sri Krishna Academy.</Description>
     <Logo>assets\StoreLogo.png</Logo>
   </Properties>
   <Resources>
