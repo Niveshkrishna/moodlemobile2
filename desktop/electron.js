@@ -11,7 +11,7 @@ const isMac = os.platform().indexOf('darwin') != -1;
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow,
-    appName = 'Moodle Desktop', // Default value.
+    appName = 'TalentExams Desktop', // Default value.
     isReady = false,
     configRead = false;
 
@@ -129,7 +129,7 @@ fs.readFile(path.join(__dirname, 'config.json'), 'utf8', (err, data) => {
 
     // Default values.
     var ssoScheme = 'moodlemobile',
-        appId = 'com.moodle.moodlemobile';
+        appId = 'com.laaraa.app';
 
     if (!err) {
         try {

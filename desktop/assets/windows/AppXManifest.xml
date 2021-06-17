@@ -8,9 +8,9 @@
     Publisher="CN=33CDCDF6-1EB5-4827-9897-ED25C91A32F6"
     Version="3.9.4.0" />
   <Properties>
-    <DisplayName>Moodle Desktop</DisplayName>
-    <PublisherDisplayName>Moodle Pty Ltd.</PublisherDisplayName>
-    <Description>The official app for Moodle.</Description>
+    <DisplayName>TalentExams</DisplayName>
+    <PublisherDisplayName>AlphaSquare Technologies</PublisherDisplayName>
+    <Description>The official app for TalentExams.</Description>
     <Logo>assets\StoreLogo.png</Logo>
   </Properties>
   <Resources>
@@ -23,13 +23,13 @@
     <rescap:Capability Name="runFullTrust"/>
   </Capabilities>
   <Applications>
-    <Application Id="com.moodle.moodlemobile" Executable="app\Moodle Desktop.exe" EntryPoint="Windows.FullTrustApplication">
+    <Application Id="com.laaraa.app" Executable="app\Moodle Desktop.exe" EntryPoint="Windows.FullTrustApplication">
       <uap:VisualElements
        BackgroundColor="#464646"
-       DisplayName="Moodle Desktop"
+       DisplayName="TalentExams Desktop"
        Square150x150Logo="assets\Square150x150Logo.png"
        Square44x44Logo="assets\Square44x44Logo.png"
-       Description="Moodle Desktop: The official desktop app for Moodle.">
+       Description="TalentExams Desktop: The official desktop app for TalentExams.">
         <uap:DefaultTile Wide310x150Logo="assets\Wide310x150Logo.png" />
       </uap:VisualElements>
       <Extensions>

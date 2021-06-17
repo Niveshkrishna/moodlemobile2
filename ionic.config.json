@@ -1,10 +1,10 @@
 {
-  "name": "moodlemobile",
+  "name": "TalentExams",
   "integrations": {
     "cordova": {},
     "gulp": {}
   },
   "type": "ionic-angular",
   "watchPatterns": [],
-  "id": "com.moodle.moodlemobile"
+  "id": "com.laaraa.app"
 }
